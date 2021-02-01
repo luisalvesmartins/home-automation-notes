@@ -48,7 +48,7 @@ Setting Unifi controller and Pihole on a docker container on Raspberry PI. I hav
  	    docker exec <CONTAINER_ID> sudo pihole -a -p <NEW_PASSWORD>
         ``` 
  
- 4. Install Unifi Controller Controller
+ 4. Install Unifi Controller
 
     Create a directory to hold the data files:
     ``` 
