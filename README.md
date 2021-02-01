@@ -71,5 +71,5 @@ Setting Unifi controller and Pihole on a docker container on Raspberry PI. I hav
 
     Unifi:
     ``` 
-    http://<PRIVATE_IP_ADDRESS_HERE>:8443
+    https://<PRIVATE_IP_ADDRESS_HERE>:8443
     ``` 
