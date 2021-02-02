@@ -55,7 +55,7 @@ Setting Unifi controller and Pihole on a docker container on Raspberry PI. I hav
     mkdir /home/pi/unifi/
     ``` 
     ``` 
-	docker run -d --name unifi -p 3478:3478/udp -p 10001:10001/udp -p 6789:6789 -p 8080:8080 -p 8880:8880 -p 8443:8443 -p 8843:8843 -e TZ="Europe/Lisbon" -v /home/pi/unifi/:/unifi --restart=unless-stopped jacobalberty/unifi:6.0.45
+	docker run -d --name unifi -p 5514:5514/udp -p 3478:3478/udp -p 10001:10001/udp -p 6789:6789 -p 8080:8080 -p 8880:8880 -p 8443:8443 -p 8843:8843 -e TZ="Europe/Lisbon" -v /home/pi/unifi/:/unifi --restart=unless-stopped jacobalberty/unifi:6.0.45
     ``` 
 
 5. Restore unifi configuration from previous controller
